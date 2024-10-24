@@ -1,0 +1,267 @@
+.footermain {
+  background-color: #ead9ce;
+  font-family: "Martel";
+}
+.footsemimain {
+  padding: 58px 0px 38px 0px;
+  display: flex;
+  gap: 169px;
+  flex-wrap: wrap;
+}
+.footleftmain {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 339px; */
+  width: 28%;
+}
+.footlefttext {
+  max-width: 310px;
+}
+.foothead {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30.37px;
+}
+.footsubleft {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #6a6a6a;
+}
+.socialholder {
+  display: flex;
+  gap: 28px;
+  margin-top: 64px;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  /* padding: 5px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  min-width: 239px;
+  width: 100%;
+}
+
+.email-input {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px 0 0 50px;
+  outline: none;
+  font-size: 16px;
+  color: #6b6b6b;
+  flex-grow: 1;
+}
+
+.email-input::placeholder {
+  color: #6b6b6b;
+}
+
+.send-btn {
+  border: none;
+  padding: 10px 27px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #a66d4f;
+  color: #fff;
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #8a563d;
+}
+
+.footrightmain {
+  display: flex;
+  gap: 124px;
+  flex-wrap: wrap;
+}
+.footrightsemimain {
+  display: flex;
+  flex-direction: column;
+}
+.footcontacttext {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25.31px;
+}
+
+.footcontacttext:hover {
+  color: #8a563d;
+  cursor: pointer;
+}
+.footcontacthead {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #b07b54;
+}
+
+@media screen and (max-width: 1024px) {
+  .footsemimain {
+    gap: 60px;
+    padding: 40px 20px;
+  }
+
+  .footrightmain {
+    /* gap: 60px; */
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .footleftmain {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footsemimain {
+    gap: 40px;
+    padding: 40px 20px;
+    justify-content: space-between;
+  }
+
+  .footrightmain {
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footleftmain {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footlefttext {
+    max-width: 450px;
+  }
+
+  .email-container {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footsemimain {
+    padding: 30px 15px;
+    gap: 30px;
+  }
+
+  .footrightmain {
+    gap: 41px;
+  }
+
+  .footrightsemimain {
+    width: 45%;
+  }
+
+  .footcontacthead {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .footcontacttext {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .foothead {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .footsubleft {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .email-container {
+    max-width: 100%;
+  }
+
+  .send-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .email-input {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  .socialholder {
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .socialholder img {
+    width: 24px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .footrightsemimain {
+    width: 100%;
+  }
+
+  .footrightmain {
+    gap: 25px;
+  }
+
+  .socialholder {
+    margin-top: 30px;
+    gap: 15px;
+  }
+}
+.footerbottom {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #b2a4a4;
+  padding: 7px 0px 7px 0px;
+  text-align: center;
+}
+.fbottomhead {
+  font-size: 15px;
+  line-height: 25.31px;
+  font-weight: 400;
+}
+.fbottomsub {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .footsemimain {
+    padding: 58px 0px 38px 0px;
+    display: flex;
+    gap: 139px;
+    flex-wrap: wrap;
+  }
+
+  .footrightmain {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footsemimain {
+    padding: 58px 0px 38px 0px;
+    display: flex;
+    gap: 90px;
+    flex-wrap: wrap;
+  }
+
+  .footrightmain {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+}

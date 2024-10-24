@@ -1,0 +1,132 @@
+.aboutmain {
+  background-color: #ead9ce;
+  position: relative;
+}
+.aboutsemimain {
+  display: flex;
+  padding: 0;
+}
+.aboutimgwrap {
+  width: 800px;
+  height: 644px;
+}
+.aboutimage {
+  width: 55.5%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.aboutleftmain {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: center;
+  padding-left: 43px;
+}
+.aboutleftwrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 557px;
+}
+.abouthead {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 47px;
+  font-family: "Bastiken";
+}
+.aboutsubtitle {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: 41px;
+  margin-bottom: 86px;
+  font-family: "Martel";
+}
+.aboutbutton {
+  background-color: #b07b54;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  padding: 9px 74px;
+  font-family: "Martel";
+}
+.aboutbutton:hover {
+  background-color: #8f5e3c;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  transform: scale(1.05);
+}
+.aboutimage:hover {
+  transform: scale(0.95);
+  transition: transform 0.4s ease-in-out;
+}
+.aboutbuttonholder {
+  justify-content: flex-end !important;
+  display: flex;
+}
+@media (max-width: 1399.98px) and (min-width: 1200px) {
+  .aboutleftwrap {
+    max-width: 793px;
+  }
+  .aboutimage {
+    width: 50%;
+  }
+  .aboutleftmain {
+    padding-left: 40px;
+  }
+  .aboutmain {
+    padding: 20px !important;
+  }
+}
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .aboutimgwrap {
+    display: none;
+  }
+  .aboutsubtitle {
+    margin-top: 41px;
+    margin-bottom: 86px;
+  }
+
+  .aboutleftmain {
+    padding-left: 0px;
+  }
+  .aboutmain {
+    padding: 20px !important;
+  }
+}
+@media (max-width: 767.98px) and (min-width: 576px) {
+  .aboutimgwrap {
+    display: none;
+  }
+  .aboutsubtitle {
+    margin-top: 41px;
+    margin-bottom: 86px;
+  }
+
+  .aboutleftmain {
+    padding-left: 0px;
+  }
+  .aboutmain {
+    padding: 20px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .aboutimgwrap {
+    display: none;
+  }
+  .trendsubtitle {
+    margin-top: 31px;
+    margin-bottom: 66px;
+  }
+  .aboutleftmain {
+    padding-left: 0px;
+  }
+  .aboutmain {
+    padding: 20px !important;
+  }
+}

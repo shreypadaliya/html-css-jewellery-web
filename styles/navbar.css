@@ -1,0 +1,115 @@
+.navmain {
+  width: 100%;
+  background-color: #ead9ce;
+  padding: 24px 0px 22px 0px;
+  border-bottom: 2px solid #B2A4A482;
+  font-family: "Lora";
+}
+.navsubicon {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.navlinksmain {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+.Hline {
+  height: 21px;
+  background-color: #b2a4a482;
+  width: 2px;
+}
+.navsub3 {
+  display: flex;
+  align-items: end;
+  gap: 32px;
+}
+.iconholder {
+  display: flex;
+  gap: 17px;
+}
+.navsub3holder {
+  display: flex;
+  flex-direction: row;
+}
+.navtext {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.mobile-menu {
+  display: none;
+  background-color: #ead9ce;
+  padding: 20px;
+  text-align: center;
+  font-family: "Lora";
+}
+.mobile-menu .navtext {
+  margin-bottom: 10px;
+}
+.mobile-menu .iconholder {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .navlinksmain,
+  .navsub3 {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .mobile-menu.active {
+    display: block;
+  }
+  .navtext {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .navsub3holder{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+  .navlinksmain {
+    gap: 20px;
+  }
+}
+
+.navtext:hover {
+  color: #B07B54; 
+  cursor: pointer; 
+}
+
+.navtext:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  height: 2px;
+  background-color: #B07B54;
+  transition: width 0.3s ease;
+}
+
+.iconholder i:hover {
+  color: #B07B54; 
+  cursor: pointer; 
+}
+
+.navsub3 .navtext:hover {
+  color: #B07B54; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

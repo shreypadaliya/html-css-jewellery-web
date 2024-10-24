@@ -1,0 +1,79 @@
+.bestseller {
+  padding: 105px 0px 105px 0px;
+  background-color: white;
+}
+.bestsellersemimain {
+  padding: 0;
+}
+.bestsellerhead {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 47px;
+  margin-bottom: 105px;
+  text-align: center;
+  font-family: "Bastiken";
+}
+.bestsellitemwrap1 {
+  display: flex;
+  /* gap: 47px; */
+  gap: 57px;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+}
+.bestsellitemwrap2 {
+  display: flex;
+  /* gap: 47px; */
+  gap: 57px;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+.sellitem {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+.sellinfowrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.itemtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30.37px;
+  font-family: "Martel";
+}
+.item1prize {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Martel";
+}
+.sellitemimg {
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .bestsellitemwrap1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .bestsellitemwrap2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 786px) {
+  .bestseller {
+    padding: 60px 0px 60px 0px;
+  }
+  .bestsellerhead {
+    margin-bottom: 60px;
+  }
+}

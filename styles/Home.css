@@ -1,0 +1,145 @@
+.homemain {
+  background-color: #ead9ce;
+  padding: 38px 0px 54px 0px;
+}
+.homesubmain {
+  background-color: #ead9ce;
+  position: relative;
+}
+.homewrapper {
+  display: flex;
+  padding: 0;
+}
+.homeleftmain {
+  display: flex;
+  align-items: center;
+}
+.hometextwrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 581px;
+}
+.hometitle {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #1b1b1b;
+  font-family: "Bastiken";
+}
+.homesubtitle {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  margin-top: 41px;
+  margin-bottom: 40px;
+  color: #1b1b1b;
+  font-family: "Martel";
+}
+.homebutton {
+  background-color: #b07b54;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  padding: 12px 28px 11px 27px;
+  font-family: "Martel";
+}
+.homebutton:hover {
+  background-color: #8f5e3c; 
+  color: #fff; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  transform: scale(1.05); 
+}
+
+.homeimg:hover {
+  transform: scale(0.98);
+  transition: transform 0.4s ease-in-out; 
+}
+
+.homerightmain {
+  width: 897px;
+  height: 673px;
+}
+.homeimg {
+  width: 57%;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 1399.98px) and (min-width: 1200px) {
+  .hometextwrapper {
+    max-width: 793px;
+  }
+  .homeimg {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .hometextwrapper {
+    max-width: 793px;
+  }
+  .homeimg {
+    width: 45%;
+  }
+  .hometitle {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #1b1b1b;
+  }
+}
+
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .homerightmain {
+    display: none;
+  }
+}
+
+
+@media (max-width: 767.98px) and (min-width: 576px) {
+  .homerightmain {
+    display: none;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  .homerightmain {
+    display: none;
+  }
+  .hometitle {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #1b1b1b;
+  }
+  .homesubtitle {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    color: #1b1b1b;
+  }
+  .homebutton {
+    background-color: #b07b54;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    padding: 8px 17px 8px 17px;
+  }
+  .homesubmain {
+    padding: 0px 15px 0px 15px;
+  }
+}

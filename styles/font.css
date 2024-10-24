@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Bastiken';
+    src: local('Bastiken'), url('../fonts/Bastiken.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Martel';
+    src: local('Martel'), url('../fonts/Martel 12350/Martel-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Martel';
+    src: local('Martel'), url('../fonts/Martel 12350/Martel-Regular.ttf')format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
